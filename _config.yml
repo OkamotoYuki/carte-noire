@@ -1,31 +1,35 @@
 # Site settings
-title: "Carte Noire"
-email: jacob@jacobtomlinson.co.uk
+title: "Y.Okamoto"
+email: okamoto.yuki.0130@gmail.com
 description: "A dark blog theme for Jekyll."
 baseurl: ""
 url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
-title_image: "https://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm"
-google_analytics: "UA-20365477-4"
-disqus_account: cartenoire
-github_repository: https://github.com/jacobtomlinson/carte-noire
+title_description: "Atlassian のシニアテクニカルサポートエンジニア。認定スクラムマスター。
+                    Accenture にて、某金融機関の営業支援システム開発プロジェクトにおける
+                    構成管理に関する技術提案等に携わった後、2015年6月より現職。
+                    Atlassian 日本法人における技術サポートチームの拡大、
+                    Atlassian 製品の国際化に貢献する。"
+title_image: "https://s.gravatar.com/avatar/092c28f1060cd991615c5d1e5eac5841?s=400"
+#google_analytics: "UA-20365477-4"
+disqus_account: yuki_okamoto
+#github_repository: https://github.com/jacobtomlinson/carte-noire
 addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: _jacobtomlinson
-github_username:  jacobtomlinson
-instagram_username: 
-reddit_username: 
-linkedin_link: http://carte-noire.jacobtomlinson.co.uk/
-google_plus_link: http://carte-noire.jacobtomlinson.co.uk/
+twitter_username: __oka_mon__
+github_username:  okamotoyuki
+instagram_username: 0kam0t0yuk1
+reddit_username:
+linkedin_link: https://www.linkedin.com/in/%E6%82%A0%E5%B8%8C-%E5%B2%A1%E6%9C%AC-13b64b72/
+google_plus_link: https://plus.google.com/u/0/113918174047947597063
 stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
 xing_link:
 facebook_link:
 
 # Footer
-footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+#footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+#footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
