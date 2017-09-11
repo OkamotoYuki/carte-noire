@@ -1,16 +1,16 @@
 # Site settings
 title: "Y.Okamoto"
 email: okamoto.yuki.0130@gmail.com
-description: "A dark blog theme for Jekyll."
-baseurl: ""
+description: "岡本 悠希について"
+baseurl: "http://blog.okamotoyuki.info/"
 url: "http://carte-noire.jacobtomlinson.co.uk/"
 title_description: "Atlassian のシニアテクニカルサポートエンジニア。認定スクラムマスター。
                     Accenture にて、某金融機関の営業支援システム開発プロジェクトにおける
                     構成管理に関する技術提案等に携わった後、2015年6月より現職。
                     Atlassian 日本法人における技術サポートチームの拡大、
-                    Atlassian 製品の国際化に貢献する。"
+                    Atlassian 製品・ドキュメントの国際化に貢献する。"
 title_image: "https://s.gravatar.com/avatar/092c28f1060cd991615c5d1e5eac5841?s=400"
-#google_analytics: "UA-20365477-4"
+google_analytics: "UA-70511107-2"
 disqus_account: yuki_okamoto
 #github_repository: https://github.com/jacobtomlinson/carte-noire
 addthis_id: ra-59b3a6d3530cb2b6
@@ -23,7 +23,7 @@ instagram_username: 0kam0t0yuk1
 reddit_username:
 linkedin_link: https://www.linkedin.com/in/%E6%82%A0%E5%B8%8C-%E5%B2%A1%E6%9C%AC-13b64b72/
 google_plus_link: https://plus.google.com/u/0/113918174047947597063
-stackoverflow_link: http://carte-noire.jacobtomlinson.co.uk/
+stackoverflow_link:
 xing_link:
 facebook_link:
 
