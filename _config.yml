@@ -10,6 +10,13 @@ title_description: "Atlassian のシニアテクニカルサポートエンジ�
                     Atlassian 日本法人における技術サポートチームの拡大、
                     Atlassian 製品・ドキュメントの国際化に貢献する。"
 title_image: "https://s.gravatar.com/avatar/092c28f1060cd991615c5d1e5eac5841?s=400"
+author: "Yuki Okamoto"
+author_description: "Atlassian のシニアテクニカルサポートエンジニア。認定スクラムマスター。
+                    Accenture にて、某金融機関の営業支援システム開発プロジェクトにおける
+                    構成管理に関する技術提案等に携わった後、2015年6月より現職。
+                    Atlassian 日本法人における技術サポートチームの拡大、
+                    Atlassian 製品・ドキュメントの国際化に貢献する。"
+author_avatar: "https://s.gravatar.com/avatar/092c28f1060cd991615c5d1e5eac5841?s=400"
 google_analytics: "UA-70511107-2"
 disqus_account: yuki_okamoto
 #github_repository: https://github.com/jacobtomlinson/carte-noire
@@ -17,7 +24,7 @@ addthis_id: ra-59b3a6d3530cb2b6
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: __oka_mon__
+twitter_username: okmt_uk
 github_username:  okamotoyuki
 instagram_username: 0kam0t0yuk1
 reddit_username:
