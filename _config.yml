@@ -1,10 +1,13 @@
 # Site settings
-title: "Yuki's Blog (仮)"
+title: "Cat's Whiskers"
 email: okamoto.yuki.0130@gmail.com
 description: "岡本 悠希について"
-baseurl: "https://blog.okamotoyuki.me/"
+baseurl: "https://blog.okamotoyuki.me"
 url: "http://carte-noire.jacobtomlinson.co.uk/"
-title_description: "メンテナンス中"
+title_description: "ソフトウェア技術、ライフハック、働き方などをテーマにブログを書いてます。
+                    本サイトが、情報発信だけではなく議論の場にもなればと考えているので、
+                    コメントやフィードバック等あれば、是非いただければ幸いです。
+                    なお、本ブログ上での発言は、あくまで個人的な見解であり、著者の所属する組織の公式見解ではありません。"
 title_image: "https://s.gravatar.com/avatar/092c28f1060cd991615c5d1e5eac5841?s=400"
 author: "Yuki Okamoto"
 author_description: "Atlassian のシニアテクニカルサポートエンジニア。認定スクラムマスター。
