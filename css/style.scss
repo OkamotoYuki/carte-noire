@@ -275,7 +275,7 @@ ul {
 
 	.author-avatar {
 		border: solid 5px $light-blue;
- 		box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.3);
+ 		box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
 	}
 
 	.row {
@@ -290,6 +290,11 @@ ul {
 		width: 100%;
 		margin-top: -80px;
 		text-align: center;
+	}
+
+	.site-logo {
+		border: solid 5px #3CA2A2;
+		filter: drop-shadow(4px 4px 5px rgba(0,0,0,0.3));
 	}
 
 	.site-description {
