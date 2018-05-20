@@ -104,7 +104,7 @@ ul {
 	width: 100%;
 
 	@media (min-width: $screen-sm-min) {
-		font-size: 62px;
+		font-size: 50px;
 		margin-left: -10%;
 		width: 120%;
 	}
@@ -472,12 +472,16 @@ ul {
 		margin-bottom: 10px;
 	}
 
+	h1 {
+		font-size: 32px;
+	}
+
 	h2 {
-		font-size: 36px;
+		font-size: 28px;
 	}
 
 	h3 {
-		font-size: 28px;
+		font-size: 24px;
 	}
 
 	p {
@@ -547,8 +551,8 @@ ul {
 		}
 
 		@media (min-width: $screen-lg-min) {
-			width: 50%;
-			margin-left: 25%;
+			width: 60%;
+			margin-left: 20%;
 		}
 
 		.thumb {
@@ -581,7 +585,7 @@ ul {
 		}
 
 		.content {
-			font-size: 18px;
+			font-size: 14px;
 			line-height: 170%;
 			padding-left: 15px;
 			padding-right: 15px;
@@ -589,7 +593,7 @@ ul {
 			padding-bottom: 10px;
 
 			@media (min-width: $screen-sm-min) {
-				font-size: 24px;
+				font-size: 16px;
 				padding-left: 30px;
 				padding-right: 30px;
 				padding-top: 40px;
