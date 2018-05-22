@@ -5,46 +5,46 @@ make-smaller-titles: true
 
 
 <div class="container-fluid index">
-    <div class="row">
+  <div class="row">
 
-        <div class="col-md-12 main content-panel">
+    <div class="col-md-12 main content-panel">
 
-            <div class="gravatar">
-                <img src="images/cats-whiskers.png" class="img-circle site-logo" height="120" width="120" alt="{{ site.title }}" />
-            </div>
+      <div class="gravatar">
+        <img src="images/cats-whiskers.png" class="img-circle site-logo" height="100" width="100" alt="{{ site.title }}" />
+      </div>
 
-            <br>
+      <br>
 
-            <h1 class="header author-header" itemprop="headline">{{ site.title }}</h1>
+      <h1 class="header site-header" itemprop="headline">{{ site.title }}</h1>
 
-            <div class="site-description">
-                {{ site.title_description }}
-            </div>
-
-          </div>
-          <div class="col-md-12 main content-panel">
-
-            <div class="articles">
-
-              <h2>Latest Articles</h2>
-
-              <ul>
-                  {% for post in site.posts limit: site.post_limit %}
-
-                      <li>
-                          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
-                      </li>
-
-                  {% endfor %}
-                  <li>
-                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
-                  </li>
-              </ul>
-
-            </div>
-
-        </div>
+      <div class="site-description">
+        {{ site.title_description }}
+      </div>
 
     </div>
+    <div class="col-md-12 main content-panel">
+
+      <div class="articles">
+
+        <h2>Latest Articles</h2>
+
+        <ul>
+          {% for post in site.posts limit: site.post_limit %}
+
+          <li>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+          </li>
+
+          {% endfor %}
+          <li>
+            <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
 </div>
