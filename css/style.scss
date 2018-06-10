@@ -561,6 +561,18 @@ ul {
 		}
 	}
 
+	.blog-image {
+		img{
+			background-color: $white;
+			margin-bottom: 5px;
+		}
+
+		p {
+			text-align: center;
+			font-style: oblique;
+		}
+	}
+
 	.article {
 		width: 100%;
 		margin-left: 0%;
