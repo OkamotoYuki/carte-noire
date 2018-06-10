@@ -31,6 +31,8 @@ $regular-purple: #601848;
 $red:            #C04848;
 $orange:         #F07241;
 
+$article:        #D3D3D3;
+
 /* Responsive sizes */
 $screen-sm-min: 768px;
 $screen-md-min: 992px;
@@ -506,6 +508,7 @@ ul {
 
 	p {
 		margin-bottom: 10px;
+		color: $article;
 
 		@media (min-width: $screen-sm-min) {
 			margin-bottom: 40px;
