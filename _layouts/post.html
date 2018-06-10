@@ -76,6 +76,9 @@ layout: default
           </ol>
         {% endif %}
 
+        <h2>目次</h2>
+        {% include toc.html html=content %}
+
         <span itemprop="articleBody">{{ content }}</span>
 
         {% if page.series %}
