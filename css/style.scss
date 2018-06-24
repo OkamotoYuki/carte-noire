@@ -32,6 +32,7 @@ $red:            #C04848;
 $orange:         #F07241;
 
 $article:        #D3D3D3;
+$strong:         #FFB05D;
 
 /* Responsive sizes */
 $screen-sm-min: 768px;
@@ -516,6 +517,10 @@ ul {
 		@media (min-width: $screen-sm-min) {
 			margin-bottom: 40px;
 		}
+	}
+
+	strong {
+		color: $strong;
 	}
 
 	.menu {
