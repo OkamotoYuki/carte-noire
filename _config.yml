@@ -3,7 +3,7 @@ title: "Cat's Whiskers"
 email: okamoto.yuki.0130@gmail.com
 description: "岡本 悠希について"
 baseurl: "https://blog.okamotoyuki.me"
-url: "http://carte-noire.jacobtomlinson.co.uk/"
+url: "https://blog.okamotoyuki.me"
 title_description: "ソフトウェア技術、ライフハック、働き方などをテーマにブログを書いてます。
                     本サイトが、情報発信だけではなく議論の場にもなればと考えているので、
                     コメントやフィードバック等あれば、是非いただければ幸いです。
@@ -31,7 +31,7 @@ linkedin_link: https://www.linkedin.com/in/%E6%82%A0%E5%B8%8C-%E5%B2%A1%E6%9C%AC
 google_plus_link: https://plus.google.com/u/0/113918174047947597063
 stackoverflow_link:
 xing_link:
-facebook_link:
+facebook_link: https://www.facebook.com/yuki.okamoto.756
 
 # Footer
 #footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"

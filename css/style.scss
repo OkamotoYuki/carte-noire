@@ -576,6 +576,10 @@ ul {
 		font-style: oblique;
 	}
 
+	.footnotes {
+		font-size: 12px;
+	}
+
 	.article {
 		width: 100%;
 		margin-left: 0%;
@@ -610,13 +614,16 @@ ul {
 		}
 
 		.author {
-			font-size: 20px;
+			font-size: 16px;
+			font-style: oblique;
 			text-align: center;
+			margin-top: 10px;
 			margin-bottom: 0px;
 		}
 
 		.read-time {
 			font-size: 16px;
+			font-style: oblique;
 			text-align: center;
 			margin-bottom: 10px;
 			font-weight: 400;
