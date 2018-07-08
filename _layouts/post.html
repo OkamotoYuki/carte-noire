@@ -26,9 +26,12 @@ layout: default
       <h1 class="header" itemprop="name">{{ page.title }}</h1>
 
       <div class="author">
-        <small><i>
+        <small>
+          <i class="fa fa-clock-o"></i>
+          <span itemprop="datePublished" content="2014-08-28">{{ page.date | date: "%y/%d/%m" }}</span>
+          &nbsp;&nbsp;
           {% if page.author %}
-          by
+          <i class="fa fa-user"></i>
           <span itemprop="author">
             {% if site.twitter_username %}
               <a rel="author" href="http://www.twitter.com/{{ site.twitter_username }}">
@@ -41,14 +44,16 @@ layout: default
             {% endif %}
           </span>
           {% endif %}
-          on <span itemprop="datePublished" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
-          {% if page.categories != empty %} under {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
-        </i></small>
+          {% if page.categories != empty %}
+          &nbsp;&nbsp;
+          <i class="fa fa-tag"></i>
+          {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
+        </small>
       </div>
 
       <div class="read-time">
         <small>
-          {{ minutes }} minute read
+          この記事の所要時間&nbsp;: {{ minutes }} 分
         </small>
       </div>
 
@@ -75,6 +80,9 @@ layout: default
           {% endfor %}
           </ol>
         {% endif %}
+
+        <h2>目次</h2>
+        {% include toc.html html=content %}
 
         <span itemprop="articleBody">{{ content }}</span>
 
@@ -126,7 +134,7 @@ layout: default
              {% else %}
               {{ post.excerpt | strip_html | truncatewords:30 }}
              {% endif %}
-            <a href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">続きを読む</a>
           </div>
         {% endfor %}
         <hr />
