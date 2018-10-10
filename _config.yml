@@ -44,7 +44,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-permalink: pretty
+permalink: /:year/:month/:day/:title
 exclude: [vendor]
 
 future: true
