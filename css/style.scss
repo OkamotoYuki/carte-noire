@@ -112,6 +112,10 @@ li {
 	margin-left: -0%;
 	width: 100%;
 
+	a {
+		text-decoration: none;
+	}
+
 	@media (min-width: $screen-sm-min) {
 		font-size: 50px;
 		margin-left: -10%;
