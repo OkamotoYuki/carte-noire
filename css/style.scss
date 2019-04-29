@@ -15,6 +15,7 @@ $stack-overflow: #c98b3b;
 $instagram:      #cd486b;
 $reddit:         #cee3f8;
 $rss:            #eea33a;
+$gist:           #e7f0ff;
 
 $code:           #161525;
 $background:     #a6a5b3;
@@ -989,4 +990,12 @@ th{
 td{
 	padding: 2px;
 	border:1px solid $dark-blue;;
+}
+
+table.highlight tr td {
+	border-style:none;
+}
+
+table.highlight tr:nth-child(2n+1) td {
+    background: $gist;
 }
